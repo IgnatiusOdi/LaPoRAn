@@ -11,3 +11,6 @@ GND to GND
 VCC to 3V3
 RX to TX2 (PIN 17)
 TX to RX2 (PIN 16)
+
+* Rename env_template to env
+* Fill .h inside env with your credentials
