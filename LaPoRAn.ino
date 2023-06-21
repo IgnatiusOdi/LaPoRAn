@@ -122,7 +122,7 @@ void loop() {
     }
 
     // ATTEMPT GET GPS LOCATION EVERY 30 SECONDS
-    if (now - prev >= 10000) {
+    if (now - prev >= 30000) {
       // GET GPS LOCATION
       if (gps.encode(Serial2.read())) {
         Serial.println(F("Attempting GPS Location..."));
